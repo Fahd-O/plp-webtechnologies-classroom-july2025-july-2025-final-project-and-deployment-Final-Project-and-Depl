@@ -1,28 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Hibelive Carton Packaging — mission, vision, and the story behind the brand." />
+  <title>About — Hibelive Carton Packaging</title>
+
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+  <!-- SITE HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Hibelive Carton Packaging">Hibelive Cartons</a>
 
-    </header>
-    
-    <main>
+      <button id="navToggle" class="nav-toggle" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+      </button>
 
-    </main>
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quote.html" class="btn-cta">Request a Quote</a></li>
+        </ul>
+      </nav>
 
+      <a class="wa-btn" href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </header>
 
+  <!-- MAIN -->
+  <main id="main" class="site-main" role="main">
+    <section class="container about-hero" aria-labelledby="about-heading" style="padding:1.25rem 0;">
+      <h1 id="about-heading">About Hibelive Carton Packaging</h1>
+      <div class="about-grid" style="display:grid;gap:1rem;">
+        <div>
+          <p><strong>Founded:</strong> 2022</p>
+          <p><strong>Founder:</strong> A hands-on founder passionate about creative packaging solutions.</p>
+          <p><strong>Where we serve:</strong> Lagos and nationwide on request</p>
+          <p class="lead" style="margin-top:0.6rem;">Hibelive started after graduation and NYSC with a simple idea: provide tailored, durable, and visually appealing carton packaging for Nigerian businesses — from food vendors to retailers and manufacturers.</p>
 
+          <h2>Mission</h2>
+          <p>To provide reliable, affordable, and high-quality carton packaging solutions tailored to customer needs.</p>
 
+          <h2>Vision</h2>
+          <p>To become a leading carton packaging brand in Nigeria known for innovation, reliability, and customer satisfaction.</p>
+        </div>
 
-    <footer>
+        <div>
+          <!-- Replace with founder / workshop image -->
+          <img src="images/about-hero.jpg" alt="Founder working on carton designs" style="width:100%;height:auto;border-radius:8px;">
+        </div>
+      </div>
+    </section>
 
-    </footer>
+    <section class="container" aria-labelledby="how-heading" style="padding:0.75rem 0;">
+      <h2 id="how-heading">How we work</h2>
+      <ol>
+        <li><strong>Tell us your needs:</strong> Provide carton size, quantity, intended use, and any printing ideas.</li>
+        <li><strong>Digital sample:</strong> We create a digital proof for your approval for printed/custom orders.</li>
+        <li><strong>Production:</strong> Once approved and deposit is received, production begins (3–7 working days typical).</li>
+        <li><strong>Delivery:</strong> We deliver within Lagos and can arrange nationwide delivery on request.</li>
+      </ol>
 
-    <script src="js/script.js"></script>
+      <h2>Design & Finishes</h2>
+      <p>We support logo placement and basic design guidance. Available finishes: lamination (matte/gloss), die-cutting, and UV coating for larger runs.</p>
+
+      <h2>Minimum Order</h2>
+      <p>MOQ varies by carton type; custom printed orders generally start at <strong>100 pieces</strong>.</p>
+    </section>
+
+    <section class="container" aria-labelledby="faq-heading" style="padding:0.75rem 0;">
+      <h2 id="faq-heading">Frequently asked questions</h2>
+      <dl>
+        <dt>Can I see a sample before bulk production?</dt>
+        <dd>Yes — we provide a digital sample for printed jobs. Physical samples can be arranged depending on the job.</dd>
+
+        <dt>How long will production take?</dt>
+        <dd>Typically 3–7 working days depending on complexity and volume.</dd>
+
+        <dt>How do I request a quote?</dt>
+        <dd>Use the <a href="quote.html">Request a Quote</a> page, or contact us via WhatsApp at <a href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer">+234 902 211 6041</a> or email <a href="mailto:akinabdulqudus@gmail.com">akinabdulqudus@gmail.com</a>.</dd>
+
+        <dt>Do you deliver?</dt>
+        <dd>Yes — delivery within Lagos and arrangements for delivery outside Lagos are available on request.</dd>
+      </dl>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="contact">
+        <h3>Contact</h3>
+        <p>Phone / WhatsApp: <a href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer">+234 902 211 6041</a></p>
+        <p>Email: <a href="mailto:akinabdulqudus@gmail.com">akinabdulqudus@gmail.com</a></p>
+      </div>
+
+      <div class="quick-links">
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="quote.html">Request a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Hibelive Carton Packaging. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>
