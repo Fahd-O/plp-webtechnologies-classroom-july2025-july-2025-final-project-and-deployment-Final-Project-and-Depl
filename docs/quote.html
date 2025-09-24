@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Request a quote — Hibelive Carton Packaging. Fill the form and get a quote via email or WhatsApp." />
+  <title>Request a Quote — Hibelive Carton Packaging</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- SITE HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Hibelive Carton Packaging">Hibelive Cartons</a>
+
+      <button id="navToggle" class="nav-toggle" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="quote.html" class="btn-cta">Request a Quote</a></li>
+        </ul>
+      </nav>
+
+      <a class="wa-btn" href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main" class="site-main" role="main">
+    <section class="container" style="padding:1.25rem 0;">
+      <h1>Request a Quote</h1>
+      <p class="lead">Tell us what you need — provide size, quantity, material and printing details. We'll send a reply via email or you can message us on WhatsApp.</p>
+    </section>
+
+    <section class="container" style="padding-bottom:1.25rem;">
+      <form id="quoteForm" class="quote-form" novalidate>
+        <fieldset style="border:0;padding:0;margin:0;">
+          <label for="name">Full name <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <input id="name" name="name" type="text" required placeholder="Your full name">
+
+          <label for="email">Email <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+          <label for="phone">Phone / WhatsApp <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <input id="phone" name="phone" type="tel" required placeholder="+234 901 234 5678">
+
+          <label for="type">Carton Type <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <select id="type" name="type" required>
+            <option value="">-- Select carton type --</option>
+            <option value="Plain Carton">Plain Carton</option>
+            <option value="Printed Carton">Printed Carton</option>
+            <option value="Corrugated Carton">Corrugated Carton</option>
+            <option value="Die-cut">Die-cut</option>
+            <option value="Pizza / Food Box">Pizza / Food Box</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="size">Size / Specifications (L × W × H)</label>
+          <input id="size" name="size" type="text" placeholder="e.g. 30cm × 20cm × 10cm">
+
+          <label for="quantity">Quantity <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <input id="quantity" name="quantity" type="number" min="1" required placeholder="e.g. 500">
+
+          <label for="material">Preferred material (optional)</label>
+          <input id="material" name="material" type="text" placeholder="e.g. single-wall corrugated">
+
+          <label for="printing">Printing / Finish required (optional)</label>
+          <input id="printing" name="printing" type="text" placeholder="e.g. CMYK full colour, matte lamination">
+
+          <label for="location">Delivery location <span aria-hidden="true" style="color:#e11d48">*</span></label>
+          <input id="location" name="location" type="text" required placeholder="e.g. Ikeja, Lagos">
+
+          <label for="message">Additional notes (optional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Any other details we should know"></textarea>
+
+          <label for="logo">Upload logo or design file (optional)</label>
+          <input id="logo" name="logo" type="file" accept=".png,.jpg,.jpeg,.pdf">
+
+        </fieldset>
+
+        <div style="margin-top:0.75rem;display:flex;gap:0.5rem;flex-wrap:wrap;">
+          <button type="submit" class="btn-primary">Submit Quote (Email)</button>
+          <button id="waBtn" type="button" class="btn-outline">Send via WhatsApp</button>
+          <a href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer" class="btn-outline" style="align-self:center;">Chat on WhatsApp</a>
+        </div>
+
+        <div id="formMsg" role="status" aria-live="polite" style="margin-top:0.75rem;"></div>
+
+        <p style="margin-top:0.6rem;color:var(--muted);font-size:0.95rem;">
+          Note: File uploads are stored locally in your browser and cannot be attached to email/WhatsApp automatically. After submitting, you'll be prompted to attach files manually in your email or WhatsApp message if needed.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="contact">
+        <h3>Contact</h3>
+        <p>Phone / WhatsApp: <a href="https://wa.me/2349022116041" target="_blank" rel="noopener noreferrer">+234 902 211 6041</a></p>
+        <p>Email: <a href="mailto:akinabdulqudus@gmail.com">akinabdulqudus@gmail.com</a></p>
+      </div>
+
+      <div class="quick-links">
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Hibelive Carton Packaging. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/form.js" defer></script>
+</body>
+</html>
